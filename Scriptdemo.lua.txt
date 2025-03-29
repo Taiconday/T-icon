@@ -144,3 +144,15 @@ loadstring(game:HttpGet("https://rawscripts.net/raw/Dead-Rails-Alpha-Alpha-Aimbo
 loadstring(game:HttpGet('https://skullhub.xyz/loader.lua'))()(Settings)
   end
   })
+
+AddButton(Tab5o, {
+     Name = "END DEAD RAILD 2",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TwoGunVolley/Dedrail/refs/heads/main/rotected_8860927939362090.txt"))()(Settings)
+  end
+  })
